@@ -1,0 +1,263 @@
+/*
+ * Title: Gamer website
+ * Description: gamer website style css
+ * Author: abedin wahid
+ * Date: 2023/07/19
+ *
+ */
+
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap");
+
+/* common style  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 180px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 1.25rem;
+  border-radius: 3rem;
+  padding: 1.2rem 2.5rem;
+  border: 0;
+  background-color: #ff42a5;
+}
+/* header style */
+
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header-container .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-container .logo img {
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.header-container .logo h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.header-container .logo h1 span {
+  color: #ff42a5;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #3c354f;
+  font-size: 1.1rem;
+}
+
+nav ul li .follow-us {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 8px;
+  background-color: rgba(11, 2, 35, 0.1);
+  padding: 1.1rem 1.5rem;
+}
+
+/* main style */
+/* main banner */
+
+.main-banner {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-section {
+  width: 50%;
+  background-image: url(../images/Group\ 14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 100px 180px;
+}
+
+.banner-section h3 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-section h3 span {
+  font-size: 6rem;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-section p {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 1.1rem 0;
+}
+
+.banner-section .btn-section {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 2.5rem;
+}
+
+.banner-section .btn-section .btn-go {
+  background-color: #4ec5f7;
+}
+
+.main-banner .banner {
+  width: 50%;
+  padding-right: 180px;
+  display: flex;
+  justify-content: end;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* gamer section   */
+.gamer-section {
+  background-color: rgba(255, 66, 165, 0.03);
+  display: flex;
+  gap: 50px;
+}
+
+.gamer-banner {
+  margin-left: 180px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.gamer-banner img {
+  padding: 50px 0;
+  width: 100%;
+}
+
+.gamer-contant {
+  text-align: end;
+  width: 50%;
+  margin-right: 180px;
+  padding: 100px 0;
+}
+
+.gamer-section > .gamer-contant h2 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gamer-section > .gamer-contant > .contant {
+  color: #534c64;
+  font-size: 18px;
+  margin: 1.5rem 0;
+}
+
+.gamer-section > .gamer-contant > .contant2 {
+  color: #534c64;
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+}
+.gamer-section > .gamer-contant > h3 {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* online games section */
+
+.online-games {
+  margin-top: 5rem;
+}
+
+.online-games-title {
+  text-align: center;
+}
+
+.online-games-title h3 {
+  color: #0b0223;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.online-games-title h3 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-games-title p {
+  color: #534c64;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.game-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+}
+
+.game-cards .card {
+  width: 100%;
+}
+
+.game-cards .card img {
+  width: 100%;
+}
+
+.game-cards .card p {
+  margin: 1rem 0;
+  color: #534c64;
+  font-weight: 600;
+}

@@ -1,0 +1,229 @@
+/*
+ * Title: Gamer website
+ * Description: gamer responsive style css
+ * Author: abedin wahid
+ * Date: 2023/07/19
+ *
+ */
+/* Common styles for all breakpoints */
+
+/* Laptop Monitor */
+@media screen and (min-width: 976px) and (max-width: 1390px) {
+  .container {
+    padding: 0 100px;
+  }
+
+  .header-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* main banner */
+
+  .banner-section {
+    padding-left: 100px;
+  }
+
+  .main-banner .banner {
+    padding-right: 100px;
+  }
+
+  .banner-section h3 {
+    font-size: 1.8rem;
+  }
+
+  .banner-section h3 span {
+    font-size: 3.6rem;
+  }
+
+  .btn-primary {
+    font-size: 1.2rem;
+    border-radius: 3rem;
+    padding: 0.7rem 1.7rem;
+  }
+
+  .banner-section .btn-section {
+    gap: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  /* gamer banner */
+
+  .gamer-banner {
+    margin-left: 100px;
+  }
+
+  .gamer-contant {
+    margin-right: 100px;
+  }
+
+  .gamer-section > .gamer-contant > h3 {
+    font-size: 22px;
+  }
+}
+
+/* Tablet style*/
+@media screen and (max-width: 975px) {
+  /* Common styles */
+  .container {
+    padding: 0 70px;
+  }
+
+  .header-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .banner-box {
+    padding-left: 40px;
+  }
+
+  .main-banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-banner .banner {
+    order: 1;
+    padding: 0;
+    width: 80%;
+  }
+
+  .banner-section {
+    order: 2;
+    padding: 0;
+    width: 80%;
+    padding: 100px 100px;
+    margin: 1.8rem auto;
+  }
+
+  .btn-primary {
+    font-size: 1.4rem;
+  }
+
+  /* gamer section */
+
+  .gamer-section {
+    flex-direction: column;
+    margin: 2rem 0;
+    align-items: center;
+  }
+
+  .gamer-banner {
+    width: 100%;
+    margin: 0;
+    padding: 0 80px;
+  }
+
+  .gamer-contant {
+    width: 100%;
+    margin: 0;
+    padding: 10px 50px;
+    text-align: center;
+  }
+
+  /* online games section */
+
+  .online-games-title h3 {
+    font-size: 2rem;
+  }
+
+  .online-games-title p {
+    font-size: 0.8rem;
+  }
+  .game-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  /* Common styles */
+  .container {
+    padding: 0 30px;
+  }
+
+  .btn-primary {
+    font-size: 0.8rem;
+    padding: 0.7rem 1.4rem;
+  }
+
+  .header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  /* Main banner */
+  .banner-section {
+    padding: 30px;
+  }
+
+  .banner-section h3 {
+    font-size: 1.6rem;
+  }
+
+  .banner-section h3 span {
+    font-size: 3.2rem;
+  }
+
+  .banner-section p {
+    font-size: 12px;
+  }
+
+  .banner-section .btn-section {
+    margin: 0;
+  }
+
+  /* gamer banner */
+
+  .gamer-section > .gamer-contant h2 {
+    font-size: 1.75rem;
+  }
+
+  .gamer-section > .gamer-contant p {
+    font-size: 1rem;
+  }
+
+  .gamer-section > .gamer-contant .contant {
+    font-size: 0.8rem;
+  }
+
+  .gamer-section > .gamer-contant h3 {
+    font-size: 1.2rem;
+  }
+
+  /* online games section */
+
+  .online-games-title p {
+    margin-bottom: 20px;
+  }
+
+  .game-cards .card {
+    width: 100%;
+  }
+
+  .online-games-title h3 {
+    font-size: 1.2rem;
+  }
+
+  .online-games-title p {
+    font-size: 0.5rem;
+  }
+  .game-cards .card {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .game-cards {
+    grid-template-columns: 1fr;
+  }
+}
