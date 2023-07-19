@@ -60,6 +60,11 @@
   .gamer-section > .gamer-contant > h3 {
     font-size: 22px;
   }
+
+  /* collection section style */
+  .collection-section {
+    padding: 150px 100px;
+  }
 }
 
 /* Tablet style*/
@@ -140,6 +145,39 @@
   }
   .game-cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* online play game section  */
+
+  .play-instanly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .play-instanly .play-instanly-content {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .play-instanly-content h2 {
+    text-align: center;
+  }
+
+  .play-instanly-banner .child {
+    width: 50%;
+    position: absolute;
+    bottom: -66px;
+    left: -80px;
+  }
+
+  /* collection-section style*/
+
+  .collection-section {
+    padding: 10px 30px;
+    gap: 10px;
   }
 }
 
@@ -229,5 +267,35 @@
 
   .game-cards {
     grid-template-columns: 1fr;
+  }
+
+  /* online play game section  */
+
+  .play-instanly {
+    gap: 30px;
+  }
+
+  .play-instanly-content h2 {
+    font-size: 20px;
+  }
+
+  .play-instanly-content p {
+    font-size: 10px;
+  }
+
+  .play-instanly-banner .child {
+    width: 50%;
+    position: absolute;
+    bottom: -45px;
+    left: -45px;
+  }
+
+  /* footer style */
+  .services ul {
+    gap: 40px;
+  }
+
+  .terms-condition ul {
+    gap: 30px;
   }
 }

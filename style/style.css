@@ -137,6 +137,8 @@ nav ul li .follow-us {
   gap: 10px;
   align-items: center;
   margin: 1.1rem 0;
+  color: #534c64;
+  font-size: 20px;
 }
 
 .banner-section .btn-section {
@@ -291,4 +293,174 @@ nav ul li .follow-us {
   margin: 1rem 0;
   color: #534c64;
   font-weight: 600;
+}
+
+/* online play game section  */
+
+.play-instanly {
+  margin-top: 100px;
+  display: flex;
+  gap: 200px;
+}
+
+.play-instanly .play-instanly-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: end;
+  width: 50%;
+}
+
+.play-instanly-banner {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.play-instanly-content h2 {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.play-instanly-content h2 span {
+  color: #f948b2;
+}
+
+.play-instanly-content p {
+  color: #534c64;
+  font-size: 18px;
+  margin: 1.5rem 0;
+}
+
+.play-instanly-banner .main {
+  width: 100%;
+}
+
+.play-instanly-banner .child {
+  width: 50%;
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+}
+
+/* collection section style */
+.collection-section {
+  margin-top: 100px;
+
+  padding: 150px 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+
+.collection {
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.collection .coll-title h4 {
+  color: #0b0223;
+  font-size: 20px;
+}
+
+.collection:hover {
+  border: 3px solid #ff42a5;
+}
+
+.collection:hover h4 {
+  color: #ff42a5;
+}
+
+/* footer style */
+.footer {
+  background-color: #0b0223;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer a,
+p {
+  color: #fff;
+}
+
+.footer .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer .logo img {
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.footer .logo h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer .logo h1 span {
+  color: #ff42a5;
+}
+
+.services > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin: 50px 0;
+}
+
+.services > ul > li > a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.social-links .social-link {
+  width: 40px;
+  height: 40px;
+}
+
+.terms-condition ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.terms-condition ul li a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.copy-right > p {
+  text-align: center;
+  margin-top: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
 }
