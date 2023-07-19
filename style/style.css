@@ -109,7 +109,7 @@ nav ul li .follow-us {
 
 .banner-section {
   width: 50%;
-  background-image: url(../images/Group\ 14.png);
+  background-image: url("../images/Group\ 14.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
