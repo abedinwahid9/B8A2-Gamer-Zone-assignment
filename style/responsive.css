@@ -106,6 +106,10 @@
 
   /* gamer section */
 
+  .online-games {
+    margin: 0;
+  }
+
   .gamer-section {
     flex-direction: column;
     margin: 2rem 0;
