@@ -23,9 +23,9 @@ body {
   margin: 0 auto;
 }
 
-.container {
-  padding: 0 180px;
-}
+/* .container {
+  margin: 0 180px;
+} */
 
 a {
   text-decoration: none;
@@ -51,6 +51,7 @@ header {
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 180px;
 }
 
 .header-container .logo {
@@ -219,6 +220,7 @@ nav ul li .follow-us {
 
 .online-games {
   margin-top: 5rem;
+  padding-left: 180px;
 }
 
 .online-games-title {
@@ -372,6 +374,11 @@ nav ul li .follow-us {
   padding: 10px;
   border-radius: 50px;
   background-color: #fff;
+}
+
+.coll-img img {
+  width: 40px;
+  height: 40px;
 }
 
 .collection .coll-title h4 {
