@@ -52,6 +52,7 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 180px;
+  padding-right: 180px;
 }
 
 .header-container .logo {
@@ -221,6 +222,7 @@ nav ul li .follow-us {
 .online-games {
   margin-top: 5rem;
   padding-left: 180px;
+  padding-right: 180px;
 }
 
 .online-games-title {
@@ -320,6 +322,7 @@ nav ul li .follow-us {
   display: flex;
   flex-direction: column;
   align-items: end;
+  padding-right: 180px;
 }
 
 .play-instanly-content h2 {
