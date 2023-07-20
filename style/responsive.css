@@ -149,6 +149,9 @@
   }
 
   /* online play game section  */
+  .play-instanly-banner {
+    padding-right: 0;
+  }
 
   .play-instanly {
     display: flex;
